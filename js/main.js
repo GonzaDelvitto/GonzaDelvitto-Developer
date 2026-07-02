@@ -104,7 +104,7 @@ function initYear(){
 /* ---------- Trae data.json y dispara el render de todo el sitio ---------- */
 async function loadData(){
   try{
-    const res = await fetch('../data/data.json');
+    const res = await fetch('./data/data.json');
     if(!res.ok) throw new Error('No se pudo leer data.json');
     const data = await res.json();
 
