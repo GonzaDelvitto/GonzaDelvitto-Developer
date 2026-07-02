@@ -1,0 +1,191 @@
+{
+  
+
+  "perfil": {
+    "nombre": "Gonzalo Delvitto",
+    "rol": "Desarrollador Web Freelance",
+    "ubicacion": "Argentina",
+    "whatsapp": "5491166784500",
+    "mensajeWhatsapp": "¡Hola Gonzalo! Vi tu portafolio y quiero contarte sobre un proyecto 🚀",
+    "email": "gonzalodelvitto@gmail.com",
+    "github": "https://github.com/gonzadelvitto",
+    "linkedin": "",
+    "disponible": true
+  },
+
+  "stats": [
+    { "numero": 20, "sufijo": "+", "etiqueta": "Proyectos entregados" },
+    { "numero": 100, "sufijo": "%", "etiqueta": "Clientes conformes" },
+    { "numero": 24, "sufijo": "h", "etiqueta": "Tiempo de respuesta" },
+    { "numero": 2, "sufijo": "+", "etiqueta": "Años de experiencia" }
+  ],
+
+  "servicios": [
+    {
+      "icono": "landing",
+      "titulo": "Landing Pages",
+      "descripcion": "Páginas de una sola vista pensadas para convertir visitas en clientes: carga rápida, mensaje claro y llamado a la acción directo.",
+      "tags": ["Conversión", "Mobile First", "SEO On-Page"]
+    },
+    {
+      "icono": "corporate",
+      "titulo": "Sitios Corporativos",
+      "descripcion": "Presencia web institucional para empresas y profesionales, con estructura clara, identidad de marca y contenido fácil de mantener.",
+      "tags": ["Diseño a medida", "Multi-sección", "Escalable"]
+    },
+    {
+      "icono": "ecommerce",
+      "titulo": "Tiendas Online",
+      "descripcion": "Catálogos y tiendas  integradas con WhatsApp, listas para vender desde el día uno.",
+      "tags": ["Carrito", "Pagos", "Catálogo dinámico"]
+    },
+    {
+      "icono": "optimizacion",
+      "titulo": "Optimización y SEO",
+      "descripcion": "Mejora de velocidad, accesibilidad y posicionamiento en buscadores para sitios ya existentes que necesitan resultados reales.",
+      "tags": ["Core Web Vitals", "SEO Técnico", "Performance"]
+    },
+    {
+      "icono": "mantenimiento",
+      "titulo": "Mantenimiento Web",
+      "descripcion": "Actualizaciones, cambios de contenido y soporte continuo para que tu sitio siga funcionando perfecto con el tiempo.",
+      "tags": ["Soporte", "Actualizaciones", "Backups"]
+    },
+    {
+      "icono": "consultoria",
+      "titulo": "Consultoría Digital",
+      "descripcion": "Asesoramiento sobre qué tipo de web necesita tu negocio, qué tecnología conviene usar y cómo priorizar el presupuesto.",
+      "tags": ["Estrategia", "Roadmap", "Presupuesto"]
+    }
+  ],
+
+  "proyectos": [
+    {
+"titulo": "Cosentino Termomecánica",
+"categoria": "Landing Page Corporativa Basica",
+"descripcion": "Landing page institucional para una empresa de servicios termomecánicos, con presentación de servicios, información corporativa y canales de contacto para clientes.",
+"tecnologias": ["HTML5", "CSS3", "JavaScript", "Seo Basico"],
+"img": "img/cosentino.jpeg",
+"link": "https://cosentinotermomecanica.com/"
+},
+  {
+"titulo": "Rabulé Candy",
+"categoria": "Sitio Web Ecommerce",
+"descripcion": "Sitio web de ventas para emprendimiento de pastelería artesanal, con catálogo de productos, presentación de la marca, pedidos personalizados e integración directa con WhatsApp para consultas y compras.",
+"tecnologias": ["HTML5", "CSS3", "JavaScript"],
+"img": "img/cand.jpg",
+"link": "#"
+}
+
+  ],
+
+  "proceso": [
+    {
+      "numero": "01",
+      "titulo": "Relevamiento",
+      "descripcion": "Charlamos sobre tu negocio, objetivos y público para entender qué necesita realmente tu web."
+    },
+    {
+      "numero": "02",
+      "titulo": "Propuesta y diseño",
+      "descripcion": "Defino estructura, estilo visual y funcionalidades, y te muestro una propuesta antes de programar nada."
+    },
+    {
+      "numero": "03",
+      "titulo": "Desarrollo",
+      "descripcion": "Programo el sitio con código limpio y optimizado, cuidando velocidad, SEO y experiencia mobile."
+    },
+    {
+      "numero": "04",
+      "titulo": "Revisión",
+      "descripcion": "Te comparto una versión de prueba para que revises contenido y hagamos los ajustes necesarios."
+    },
+    {
+      "numero": "05",
+      "titulo": "Publicación",
+      "descripcion": "Subimos el sitio a producción, configuramos dominio y verificamos que todo funcione perfecto."
+    },
+    {
+      "numero": "06",
+      "titulo": "Acompañamiento",
+      "descripcion": "Quedo disponible para soporte, cambios y mejoras una vez que el sitio ya está en marcha."
+    }
+  ],
+
+  "formacion": [
+    {
+"tipo": "carrera",
+"periodo": "2024 — Actualidad",
+"titulo": "Tecnicatura en Analisis De Sistemas",
+"institucion": "Instituto Superior de Formación Docente y Técnica N° 44 - General Las Heras, Buenos Aires",
+"descripcion": "Formación en análisis y desarrollo de sistemas, programación, bases de datos, redes, ingeniería de software y desarrollo de aplicaciones web orientadas a la resolución de problemas tecnológicos."
+},
+   
+{
+"tipo": "curso",
+"periodo": "2023",
+"titulo": "Programación Web Desde Cero",
+"institucion": "EGG Educación",
+"descripcion": "Capacitación en desarrollo web con HTML5, CSS3 y JavaScript, enfocada en maquetado web, estilos responsivos, lógica de programación y creación de sitios dinámicos."
+},
+
+
+    {
+"tipo": "curso",
+"periodo": "2024",
+"titulo": "Front-End JS",
+"institucion": "Talento Tech - Buenos Aires Aprende",
+"descripcion": "Capacitación en desarrollo web front-end utilizando JavaScript, HTML5 y CSS3, con enfoque en creación de interfaces dinámicas, diseño responsive y buenas prácticas de desarrollo web."
+},
+
+{
+"tipo": "curso",
+"periodo": "2025",
+"titulo": "Desarrollo Web React",
+"institucion": "Talento Tech - Buenos Aires Aprende",
+"descripcion": "Capacitación en desarrollo de aplicaciones web con React, JavaScript, HTML5 y CSS3, enfocada en componentes reutilizables, manejo de estados, interfaces dinámicas y desarrollo responsive."
+}
+
+   
+  ],
+
+  "precios": [
+    {
+      "nombre": "Landing Page",
+      "descripcion": "Ideal para emprendimientos que necesitan una presencia web rápida y efectiva.",
+      "caracteristicas": [
+        "1 sola página",
+        "Diseño responsive",
+        "Formulario de contacto",
+        "Botón de WhatsApp",
+        "SEO básico incluido"
+      ],
+      "destacado": false
+    },
+    {
+      "nombre": "Sitio Corporativo",
+      "descripcion": "Para empresas que necesitan varias secciones y una imagen profesional completa.",
+      "caracteristicas": [
+        "Hasta 5 secciones",
+        "Diseño a medida",
+        "Panel de contenido editable",
+        "SEO on-page completo",
+        "Optimización de velocidad",
+        "1 mes de soporte incluido"
+      ],
+      "destacado": true
+    },
+    {
+      "nombre": "Tienda Online",
+      "descripcion": "Para negocios que quieren vender productos o servicios directamente desde la web.",
+      "caracteristicas": [
+        "Catálogo de productos",
+        "Carrito de compras",
+        "Checkout por WhatsApp o pagos online",
+        "Panel de administración",
+        "SEO y performance optimizados"
+      ],
+      "destacado": false
+    }
+  ]
+}

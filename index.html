@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ===== SEO básico ===== -->
+  <title>Gonzalo Delvitto | Desarrollo Web Profesional en Argentina</title>
+  <meta name="description" content="Diseño y desarrollo de landing pages, sitios corporativos y tiendas online optimizadas para conversión y ventas. Presupuesto sin cargo por WhatsApp.">
+  <meta name="keywords" content="diseño web, desarrollo web, landing pages, paginas web profesionales, freelance web argentina, programador web">
+  <meta name="author" content="Gonzalo Delvitto">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://gonzadelvitto.github.io/portafolio/">
+
+  <!-- ===== Open Graph (para cuando se comparte el link) ===== -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Gonzalo Delvitto | Desarrollo Web Profesional">
+  <meta property="og:description" content="Webs rápidas, modernas y orientadas a generar clientes reales. Landing pages, sitios corporativos y tiendas online.">
+  <meta property="og:image" content="https://gonzadelvitto.github.io/portafolio/img/preview.jpg">
+  <meta property="og:url" content="https://gonzadelvitto.github.io/portafolio/">
+  <meta property="og:locale" content="es_AR">
+
+  <!-- ===== Twitter Card ===== -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Gonzalo Delvitto | Desarrollo Web Profesional">
+  <meta name="twitter:description" content="Diseño web enfocado en conversión y resultados reales.">
+  <meta name="twitter:image" content="https://gonzadelvitto.github.io/portafolio/img/preview.jpg">
+
+  <!-- ===== Datos estructurados para Google (rich results) ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Gonzalo Delvitto - Desarrollo Web",
+    "url": "https://gonzadelvitto.github.io/portafolio/",
+    "image": "https://gonzadelvitto.github.io/portafolio/img/preview.jpg",
+    "priceRange": "$$",
+    "areaServed": "AR",
+    "founder": {
+      "@type": "Person",
+      "name": "Gonzalo Delvitto",
+      "jobTitle": "Desarrollador Web"
+    },
+    "makesOffer": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Landing Pages" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Sitios Corporativos" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tiendas Online" } }
+    ]
+  }
+  </script>
+
+  <!-- ===== Favicon (SVG inline, sin archivo extra) ===== -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230A0E1A'/%3E%3Ctext x='50' y='66' font-size='46' font-family='Arial, sans-serif' font-weight='700' fill='%232F6FED' text-anchor='middle'%3EGD%3C/text%3E%3C/svg%3E">
+
+  <!-- ===== Tipografías ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- ===================================================== -->
+  <!-- PRELOADER                                              -->
+  <!-- ===================================================== -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <span class="preloader__logo">GD</span>
+  </div>
+
+  <!-- ===================================================== -->
+  <!-- HEADER / NAV                                           -->
+  <!-- ===================================================== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo">
+        <span class="logo__mark">GD</span>
+        <span class="logo__text">Gonzalo Delvitto</span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#inicio" class="nav__link">Inicio</a></li>
+          <li><a href="#soluciones" class="nav__link">Soluciones</a></li>
+          <li><a href="#proyectos" class="nav__link">Proyectos</a></li>
+          <li><a href="#proceso" class="nav__link">Proceso</a></li>
+          <li><a href="#formacion" class="nav__link">Formación</a></li>
+          <li><a href="#precios" class="nav__link">Precios</a></li>
+          <li><a href="#contacto" class="nav__link">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <a href="#" id="navWhatsapp" class="btn btn--whatsapp btn--small nav__cta" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.29-1.39a9.9 9.9 0 0 0 4.75 1.21h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2zm0 18.1h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.14.82.84-3.06-.2-.32a8.18 8.18 0 0 1-1.26-4.4c0-4.52 3.68-8.2 8.27-8.2 2.2 0 4.28.86 5.84 2.42a8.15 8.15 0 0 1 2.42 5.79c0 4.52-3.68 8.28-8.27 8.28zm4.53-6.2c-.25-.12-1.47-.72-1.7-.81-.23-.08-.4-.12-.56.13-.17.25-.65.81-.79.97-.15.17-.29.19-.54.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.24-.42.08-.17.04-.31-.02-.43-.06-.12-.56-1.36-.77-1.86-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.7 4.25 3.78.59.26 1.05.41 1.41.53.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.19.21-.58.21-1.08.15-1.19-.06-.1-.23-.17-.48-.29z"/></svg>
+        Escribime
+      </a>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===================================================== -->
+    <!-- HERO                                                   -->
+    <!-- ===================================================== -->
+    <section id="inicio" class="hero">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="container hero__inner">
+
+        <div class="hero__content">
+          <span class="eyebrow" id="disponibilidad"><span class="eyebrow__dot"></span> Disponible para nuevos proyectos</span>
+          <h1 class="hero__title">
+            Sitios web que convierten <span class="text-gradient">visitas</span> en clientes reales.
+          </h1>
+          <p class="hero__subtitle">
+            Diseño y desarrollo landing pages, sitios corporativos y tiendas online rápidas, modernas y pensadas para vender. Código prolijo, sin plantillas genéricas.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#proyectos" class="btn btn--primary">Ver proyectos</a>
+            <a href="#" id="heroWhatsapp" class="btn btn--outline" target="_blank" rel="noopener">Hablemos por WhatsApp</a>
+          </div>
+
+          <ul class="hero__stats" id="statsList"><!-- stats inyectados por main.js --></ul>
+        </div>
+
+        <div class="hero__visual" aria-hidden="true">
+          <div class="browser">
+            <div class="browser__bar">
+              <span class="browser__dot browser__dot--red"></span>
+              <span class="browser__dot browser__dot--yellow"></span>
+              <span class="browser__dot browser__dot--green"></span>
+              <span class="browser__url">gonzalodelvitto.dev</span>
+            </div>
+            <div class="browser__body">
+              <pre class="terminal"><code id="terminalCode"></code><span class="terminal__caret"></span></pre>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a href="#soluciones" class="hero__scroll" aria-label="Bajar a la siguiente sección">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ===================================================== -->
+    <!-- SOLUCIONES / SERVICIOS                                 -->
+    <!-- ===================================================== -->
+    <section id="soluciones" class="section services">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Soluciones</span>
+          <h2 class="section__title">Qué puedo hacer por tu negocio</h2>
+          <p class="section__subtitle">Servicios de desarrollo web pensados para negocios reales, no solo para verse bien.</p>
+        </div>
+
+        <div class="services__grid" id="servicesGrid"><!-- tarjetas inyectadas por main.js --></div>
+      </div>
+    </section>
+
+    <!-- ===================================================== -->
+    <!-- PROYECTOS                                              -->
+    <!-- ===================================================== -->
+    <section id="proyectos" class="section projects">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Proyectos</span>
+          <h2 class="section__title">Trabajos recientes</h2>
+          <p class="section__subtitle">Una selección de sitios diseñados y desarrollados a medida.</p>
+        </div>
+
+        <div class="projects__grid" id="projectsGrid"><!-- tarjetas inyectadas por main.js --></div>
+      </div>
+    </section>
+
+    <!-- ===================================================== -->
+    <!-- PROCESO                                                -->
+    <!-- ===================================================== -->
+    <section id="proceso" class="section process">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Proceso</span>
+          <h2 class="section__title">Cómo trabajamos juntos</h2>
+          <p class="section__subtitle">Un método simple y transparente, de la idea al sitio publicado.</p>
+        </div>
+
+        <div class="process__grid" id="processGrid"><!-- pasos inyectados por main.js --></div>
+      </div>
+    </section>
+
+    <!-- ===================================================== -->
+    <!-- FORMACIÓN (carreras + cursos, línea de tiempo)         -->
+    <!-- ===================================================== -->
+    <section id="formacion" class="section education">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Formación</span>
+          <h2 class="section__title">Carreras y cursos</h2>
+          <p class="section__subtitle">Mi recorrido de formación, de lo académico a lo específico.</p>
+        </div>
+
+        <div class="timeline" id="timelineList"><!-- items inyectados por main.js --></div>
+      </div>
+    </section>
+
+    <!-- ===================================================== -->
+    <!-- PRECIOS                                                -->
+    <!-- ===================================================== -->
+    <section id="precios" class="section pricing">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Precios</span>
+          <h2 class="section__title">Planes orientativos</h2>
+          <p class="section__subtitle">Cada proyecto es distinto: estos valores son un punto de partida. Cotización final por WhatsApp.</p>
+        </div>
+
+        <div class="pricing__grid" id="pricingGrid"><!-- tarjetas inyectadas por main.js --></div>
+      </div>
+    </section>
+
+    <!-- ===================================================== -->
+    <!-- CONTACTO                                               -->
+    <!-- ===================================================== -->
+    <section id="contacto" class="section contact">
+      <div class="hero__glow hero__glow--contact" aria-hidden="true"></div>
+      <div class="container contact__inner">
+
+        <div class="contact__info reveal">
+          <span class="eyebrow">Contacto</span>
+          <h2 class="section__title">Contame sobre tu proyecto</h2>
+          <p class="section__subtitle">Respondo rápido por WhatsApp. Es la vía más directa para armar tu presupuesto.</p>
+
+          <a href="#" id="contactWhatsapp" class="contact__whatsapp-card" target="_blank" rel="noopener">
+            <span class="contact__whatsapp-icon">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.29-1.39a9.9 9.9 0 0 0 4.75 1.21h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2zm0 18.1h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.14.82.84-3.06-.2-.32a8.18 8.18 0 0 1-1.26-4.4c0-4.52 3.68-8.2 8.27-8.2 2.2 0 4.28.86 5.84 2.42a8.15 8.15 0 0 1 2.42 5.79c0 4.52-3.68 8.28-8.27 8.28zm4.53-6.2c-.25-.12-1.47-.72-1.7-.81-.23-.08-.4-.12-.56.13-.17.25-.65.81-.79.97-.15.17-.29.19-.54.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.24-.42.08-.17.04-.31-.02-.43-.06-.12-.56-1.36-.77-1.86-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.7 4.25 3.78.59.26 1.05.41 1.41.53.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.19.21-.58.21-1.08.15-1.19-.06-.1-.23-.17-.48-.29z"/></svg>
+            </span>
+            <span class="contact__whatsapp-text">
+              <strong>+54 9 11 6678-4500</strong>
+              <span>Tocá para escribirme directo</span>
+            </span>
+          </a>
+        </div>
+
+        <form class="contact__form reveal" id="contactForm">
+          <div class="form__row">
+            <label for="fName">Nombre</label>
+            <input type="text" id="fName" name="fName" placeholder="¿Cómo te llamás?" required>
+          </div>
+          <div class="form__row">
+            <label for="fContact">Email o teléfono</label>
+            <input type="text" id="fContact" name="fContact" placeholder="Para responderte" required>
+          </div>
+          <div class="form__row">
+            <label for="fMsg">Contame tu proyecto</label>
+            <textarea id="fMsg" name="fMsg" rows="4" placeholder="Qué tipo de sitio necesitás, plazos, presupuesto aproximado..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary form__submit">
+            Enviar por WhatsApp
+          </button>
+          <p class="form__hint">Se abre WhatsApp con tu mensaje ya cargado, no se guarda nada acá.</p>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================================================== -->
+  <!-- FOOTER                                                 -->
+  <!-- ===================================================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#inicio" class="logo">
+        <span class="logo__mark">GD</span>
+        <span class="logo__text">Gonzalo Delvitto</span>
+      </a>
+      <p class="footer__tag">Desarrollo Web · Landing Pages · SEO · Tiendas Online</p>
+      <p class="footer__copy">© <span id="year"></span> Gonzalo Delvitto. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- ===================================================== -->
+  <!-- BOTONES FLOTANTES                                      -->
+  <!-- ===================================================== -->
+  <a href="#" id="floatWhatsapp" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Escribime por WhatsApp">
+    <span class="whatsapp-float__ring"></span>
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.29-1.39a9.9 9.9 0 0 0 4.75 1.21h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2zm0 18.1h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.14.82.84-3.06-.2-.32a8.18 8.18 0 0 1-1.26-4.4c0-4.52 3.68-8.2 8.27-8.2 2.2 0 4.28.86 5.84 2.42a8.15 8.15 0 0 1 2.42 5.79c0 4.52-3.68 8.28-8.27 8.28zm4.53-6.2c-.25-.12-1.47-.72-1.7-.81-.23-.08-.4-.12-.56.13-.17.25-.65.81-.79.97-.15.17-.29.19-.54.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.24-.42.08-.17.04-.31-.02-.43-.06-.12-.56-1.36-.77-1.86-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.7 4.25 3.78.59.26 1.05.41 1.41.53.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.19.21-.58.21-1.08.15-1.19-.06-.1-.23-.17-.48-.29z"/></svg>
+  </a>
+
+  <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="./js/main.js" defer></script>
+</body>
+</html>
