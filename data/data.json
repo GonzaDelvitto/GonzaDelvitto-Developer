@@ -75,8 +75,16 @@
 "tecnologias": ["HTML5", "CSS3", "JavaScript"],
 "img": "img/cand.jpg",
 "link": "#"
-}
+},
 
+{
+  "titulo": "Enoc Calfulaf Anavalón - Psicólogo",
+  "categoria": "Landing Page Profesional",
+  "descripcion": "Landing page profesional para Enoc Calfulaf Anavalón, psicólogo clínico. El sitio presenta sus servicios de atención psicológica online y presencial en Temuco, áreas de abordaje, modalidad de trabajo y proceso de reserva. Incluye una sección de preguntas frecuentes y un formulario que facilita la solicitud de sesiones mediante WhatsApp.",
+  "tecnologias": ["HTML5", "CSS3", "JavaScript"],
+  "img": "img/enoc.jpeg",
+  "link": "https://www.psenoc.cl/"
+}
   ],
 
   "proceso": [
